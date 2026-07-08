@@ -1,37 +1,52 @@
 *{
-    padding: 0;
-    margin: 0;
-    background-color:#FBEFEF;
+    padding: 2px;
+    margin: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
    text-align: center;
 
 }
 
 body{
-    background:rgb(16, 13, 13) ;
+    background:rgb(236, 214, 214) ;
     color:#000000;
+}
+
+nav{
+    background: hsl(274, 82%, 93%);
+    height: 70px;
+
 }
 
 header{
     background:#f8caca ;
     text-align: center;
     color:black;
-    padding: 5px;
 }
 
-nav{
-    background: #C5B3D3;
+
+img{
+    width: 70px;
+    height: 50px;
 }
 
 nav ul{
-    justify-content: center;
+
+    align-items: center;
     display: flex;
     list-style: none;
+    justify-content: right;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
 }
 
 nav ul li{
-    margin: 20px;
+    margin: 0px;
+
 }
 
 section {
@@ -39,3 +54,30 @@ section {
     padding:15px;
 
 }
+
+#About{
+    padding: 10px;
+    margin: 5px; 
+    background-color: #C5B3D3;
+
+
+
+}
+#Home{
+    background-color: #C5B3D3;
+    padding: 5px;
+}
+
+#Skills{
+    background-color: #C5B3D3;
+}
+
+#Project{
+    background-color: #C5B3D3;
+}
+
+#Contact{
+    background-color: #C5B3D3;
+
+}
+
